@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Build triggered successfully"
+echo "Build triggered success"
 echo "Build number: $BUILD_NUMBER"
 echo "Build date:"
 date
