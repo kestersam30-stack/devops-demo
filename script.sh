@@ -1,4 +1,6 @@
-echo "New change" >> script.sh
-git add .
-git commit -m "Testing auto trigger"
-git push
+#!/bin/bash
+
+echo "Build triggered successfully"
+echo "Build number: $BUILD_NUMBER"
+echo "Build date:"
+date
