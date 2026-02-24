@@ -1,3 +1,4 @@
-#!/bin/bash
-echo "Build Triggered from Jenkins"
-date
+echo "New change" >> script.sh
+git add .
+git commit -m "Testing auto trigger"
+git push
